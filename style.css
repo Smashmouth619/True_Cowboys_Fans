@@ -1,0 +1,52 @@
+.phase1{
+    display: flex;
+    background-color: rgb(23, 23, 66);
+    color: gray;
+    flex-wrap: wrap;
+}
+
+.header1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 200px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex: 1 1 100%;
+    list-style: none;
+    margin-left: 500px;
+}
+
+li{
+    font-size: 30px;
+    margin: 0 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 280px;
+    margin: 10px 500px;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+.statement{
+    font-size: 20px;
+}
+
+strong{
+    font-size: 50px;
+}
